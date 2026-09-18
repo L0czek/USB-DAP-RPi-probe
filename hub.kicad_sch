@@ -2394,6 +2394,102 @@
 			)
 		)
 	)
+	(global_label "MCU_USB_D-"
+		(shape input)
+		(at 167.64 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71bd4eb2-09a9-4006-9038-dcffd63f7cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.2647 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_TARGET_D+"
+		(shape input)
+		(at 167.64 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e6a0a04-ddf6-4d46-b6e0-1d69c1b8afa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.9256 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MCU_USB_D+"
+		(shape input)
+		(at 167.64 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1d33621-2e87-44e7-856a-8eeb555f65e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.2647 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_TARGET_D-"
+		(shape input)
+		(at 167.64 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1fb526f-a149-4d43-8b9f-1642f1b68cb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.9256 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "HUB_EEPROM_MOSI"
 		(shape input)
 		(at 62.23 115.57 0)
@@ -2833,106 +2929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_EEPROM:93CxxB")
-		(at 35.56 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ccb19d7-a030-4ac0-a8cc-736d64d94e55")
-		(property "Reference" "U2"
-			(at 37.7033 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "93CxxB"
-			(at 37.7033 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
-			(at 35.56 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8"
-			(at 35.56 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "57967666-c096-4f7c-8eef-8cdb7067bf54")
-		)
-		(pin "7"
-			(uuid "6f1326ca-2847-4847-b95b-46fb461617ec")
-		)
-		(pin "6"
-			(uuid "ef9d426b-56a6-416d-817c-747e3969ace5")
-		)
-		(pin "5"
-			(uuid "ed91dc52-23f3-4a61-acda-f57a7fae593a")
-		)
-		(pin "4"
-			(uuid "673f9fbd-8182-4234-a134-70e390763d46")
-		)
-		(pin "3"
-			(uuid "4f2ef2ad-d55f-4ad0-afdf-367ff9d27bf2")
-		)
-		(pin "2"
-			(uuid "97404cdf-7505-4484-a7bd-6ca45f1be4e0")
-		)
-		(pin "1"
-			(uuid "26851133-2a95-4873-aeec-ab56c94837f8")
-		)
-		(instances
-			(project "usb-dap-rpi-probe"
-				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 26.67 0)
 		(unit 1)
@@ -2965,7 +2961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.8552 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3677,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3802,6 +3798,84 @@
 			(project "usb-dap-rpi-probe"
 				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 45.72 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "841e37a3-4919-48ae-897b-38c0f65c8658")
+		(property "Reference" "#PWR052"
+			(at 45.72 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 45.72 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58cac431-c76f-48c8-9a2b-fb898ded11f6")
+		)
+		(instances
+			(project "usb-dap-rpi-probe"
+				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4118,6 +4192,106 @@
 			(project "usb-dap-rpi-probe"
 				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:93CxxB")
+		(at 35.56 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5cf08d-8480-4e7d-a926-e777a68db96c")
+		(property "Reference" "U3"
+			(at 37.7033 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "93CxxB"
+			(at 37.7033 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 35.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf"
+			(at 35.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8"
+			(at 35.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87adbee1-5b50-415d-a616-1209a2459a0d")
+		)
+		(pin "2"
+			(uuid "19e7caa6-2213-4c13-9e49-bfc38a9d2ff0")
+		)
+		(pin "3"
+			(uuid "43b7d701-4602-4700-bf12-90fb899642af")
+		)
+		(pin "4"
+			(uuid "27b75be0-ee41-4281-b43f-2a292e9ed73a")
+		)
+		(pin "5"
+			(uuid "ea452670-20d0-4541-8fe8-1d3e450e71ba")
+		)
+		(pin "6"
+			(uuid "910936ee-7478-4fc3-af48-45c440a00931")
+		)
+		(pin "7"
+			(uuid "5b2c961d-3706-4920-8ed2-5f5f396100b8")
+		)
+		(pin "8"
+			(uuid "01cd405c-8057-4e76-8ff3-f58a20705baa")
+		)
+		(instances
+			(project "usb-dap-rpi-probe"
+				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4446,6 +4620,165 @@
 			(project "usb-dap-rpi-probe"
 				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9b1fe46-8293-463d-803d-2aebd4fbd230")
+		(property "Reference" "C74"
+			(at 49.784 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 49.784 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 46.6852 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 45.72 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "89504e8a-d358-4fdc-9424-ec4de24afa1f")
+		)
+		(pin "1"
+			(uuid "638439f7-7289-42a1-9713-72da108eca34")
+		)
+		(instances
+			(project "usb-dap-rpi-probe"
+				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e04622bc-035e-43c3-af0b-fec6c68ef35b")
+		(property "Reference" "#PWR0165"
+			(at 45.72 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d062a928-7146-4b8e-949f-de8462b13ba7")
+		)
+		(instances
+			(project "usb-dap-rpi-probe"
+				(path "/63e1bcfd-f0fa-4b88-a2b3-5c865421fe33/c1c62a03-dabf-4ed1-9a1a-5bf9e702911e"
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
