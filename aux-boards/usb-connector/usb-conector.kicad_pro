@@ -210,7 +210,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +244,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -508,7 +518,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.141,

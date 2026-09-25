@@ -3236,7 +3236,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "554c7d68-90c4-44e2-95a8-fe8f106eec89")
 		(property "Reference" "USB1"
 			(at 204.0733 53.34 0)
