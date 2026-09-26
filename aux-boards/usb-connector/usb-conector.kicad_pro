@@ -684,7 +684,7 @@
         "uuid": "a12c8512-b87d-4242-a675-c72f035c982f"
       }
     ],
-    "used_designators": "USB1,#PWR1-2,J5-6",
+    "used_designators": "J5-6,#PWR1-2,USB1",
     "variants": []
   },
   "sheets": [
