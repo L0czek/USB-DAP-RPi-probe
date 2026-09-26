@@ -560,7 +560,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "usb-dap-rpi-probe.dsn",
       "step": "",
       "vrml": ""
     },
@@ -732,7 +732,7 @@
         "uuid": "63e1bcfd-f0fa-4b88-a2b3-5c865421fe33"
       }
     ],
-    "used_designators": "#PWR1-170,#PWR225,#PWR232-233,#PWR238,Y1-3,C1-19,C22-77,C101,D1-3,D17-21,J1-6,R1-14,R24-42,USB1-2,U1-18,U24,F1,L1-3,SW1,H1-4",
+    "used_designators": "#PWR1-170,#PWR225,#PWR232-233,#PWR238,D1-3,D17-21,Y1-3,C1-19,C22-77,C101,J1-6,R1-14,R24-42,USB1-2,U1-18,U24,F1,L1-3,SW1,H1-4",
     "variants": []
   },
   "sheets": [

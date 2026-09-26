@@ -12065,8 +12065,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 129.54 176.53 0)
-		(mirror y)
+		(at 129.54 179.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12074,10 +12073,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1f07066-bada-4ead-abec-ec9175e46591")
 		(property "Reference" "J6"
-			(at 129.54 167.64 0)
+			(at 129.54 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12087,7 +12085,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 129.54 170.18 0)
+			(at 129.54 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12097,7 +12095,7 @@
 			)
 		)
 		(property "Footprint" "oled-i2c-disp:SSD1306_0.96_Oled"
-			(at 129.54 176.53 0)
+			(at 129.54 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +12106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 176.53 0)
+			(at 129.54 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12119,7 +12117,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 176.53 0)
+			(at 129.54 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

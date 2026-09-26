@@ -1,0 +1,117 @@
+
+(rules PCB usb-dap-rpi-probe.dsn
+  (snapAngle 
+    fortyfive_degree
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 500.0 (type "board_edge"))
+  )
+  (padstack "Via[0-3]_450:200_um"
+    (shape
+      (circle F.Cu 450.0 0.0 0.0)
+    )
+    (shape
+      (circle VCC 450.0 0.0 0.0)
+    )
+    (shape
+      (circle GND 450.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 450.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle VCC 600.0 0.0 0.0)
+    )
+    (shape
+      (circle GND 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1500:700_um"
+    (shape
+      (circle F.Cu 1500.0 0.0 0.0)
+    )
+    (shape
+      (circle VCC 1500.0 0.0 0.0)
+    )
+    (shape
+      (circle GND 1500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle VCC 800.0 0.0 0.0)
+    )
+    (shape
+      (circle GND 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_450:200_um" "Via[0-3]_450:200_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_1500:700_um" "Via[0-3]_1500:700_um" default
+  )
+  (via 
+    "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
+  )
+  (viaRule
+    default "Via[0-3]_450:200_um"
+  )
+  (viaRule
+    default "Via[0-3]_450:200_um"
+  )
+  (class default
+    "3V3_ALW_ON" +3.3V "TARGET_USB_VBUS" VBUS GND "USB_PWR_PRT_CC2" "Net-(U13-ITIMER)" "Net-(U16-VIN)"
+    "Net-(U10-VREG_AVDD)" "MCU_RESET" "Net-(U17-OVLO{slash}OVCSEL)" "Net-(U1-XTAL2)" "UPSTREAM_USB_VBUS" "Net-(U8-OVLO{slash}OVCSEL)" "Net-(U10-XIN)" "TAG_CONNECT_VCC"
+    SWDIO SWCLK "unconnected-(J4-SWO-Pad6)" "Net-(U17-DVDT)" "VBUS_0_EN" "unconnected-(U8-PG{slash}AUXOFF-Pad3)" "unconnected-(U8-PGTH{slash}FLT#-Pad4)" "Net-(U8-DVDT)"
+    "Net-(U7A-P0B)" "Net-(U8-ITIMER)" "USB_PWR_PRT_CC1" "USB_PWR_PRT_VBUS" "Net-(J5-Pin_1)" "USB_D0" "USB_D4" "USB_D1"
+    "USB_D5" "USB_TARGET_CC1" "USB_TARGET_CC2" "PRE_USB_TARGET_D+" "PRE_USB_TARGET_D-" "USB_D8" "USB_D9" "USB_D6"
+    "USB_D2" "USB_D7" "USB_D3" "Net-(U10-~{QSPI_SS})" "Net-(U10-QSPI_SD1)" "Net-(U10-QSPI_SD2)" "Net-(U10-QSPI_SD0)" "Net-(U10-QSPI_SCLK)"
+    "Net-(U10-QSPI_SD3)" VAA "INT_I2C_SCL" "INT_I2C_SDA" "USB_UPSTREAM_CC1" "Net-(U10-GPIO28{slash}ADC2)" "Net-(U13-OVLO{slash}OVCSEL)" "Net-(U1-XTAL1{slash}CLK48)"
+    "USB_UPSTREAM_D-" "USB_UPSTREAM_D+" /Connectors/+ "/Connectors/-" "Net-(U10-VREG_LX)" +1V1 "Net-(U10-RUN)" "USB_PD_INT"
+    "Net-(U10-XOUT)" "Net-(D18-K)" "HUB_RESET" "OUTPUT_SHUNT" "Net-(U17-ITIMER)" "Net-(U14-ITIMER)" "Net-(U10-GPIO27{slash}ADC1)" "USB_UPSTREAM_SBU1"
+    "USB_UPSTREAM_CC2" "USB_UPSTREAM_SBU2" "Net-(U14-OVLO{slash}OVCSEL)" "USB_DAP_DIR" "USB_DAP_EN" "VBUS_2_EN" "unconnected-(U14-PG{slash}AUXOFF-Pad3)" "unconnected-(U14-PGTH{slash}FLT#-Pad4)"
+    "DC_IN_VBUS" "Net-(U14-DVDT)" "Net-(U14-ILM)" "VBUS_1_EN" "unconnected-(U13-PG{slash}AUXOFF-Pad3)" "unconnected-(U13-PGTH{slash}FLT#-Pad4)" "Net-(U13-DVDT)" "Net-(U13-ILM)"
+    "USB_TARGET_D+" "USB_TARGET_D-" "HUB_EEPROM_CS" "HUB_EEPROM_SCK" "HUB_EEPROM_MOSI" "HUB_EEPROM_MISO" "unconnected-(U3-NC-Pad6)" "unconnected-(U3-NC-Pad7)"
+    "VBUS_OUT_EN" "unconnected-(U17-PG{slash}AUXOFF-Pad3)" "unconnected-(U17-PGTH{slash}FLT#-Pad4)" "Net-(U17-ILM)" "Net-(U10-GPIO26{slash}ADC0)" "unconnected-(U1-~{PWRON1}-Pad9)" "unconnected-(U1-~{OVRCUR1}-Pad10)" "MCU_USB_D-"
+    "MCU_USB_D+" "unconnected-(U1-~{PWRON2}-Pad13)" "unconnected-(U1-~{OVRCUR2}-Pad14)" "unconnected-(U1-~{PWRON3}-Pad17)" "unconnected-(U1-~{OVRCUR3}-Pad18)" "unconnected-(U1-DM3-Pad19)" "unconnected-(U1-DP3-Pad20)" "unconnected-(U1-~{EXTMEM}-Pad26)"
+    "unconnected-(U1-DP0PUR-Pad27)" "unconnected-(U1-MODE-Pad31)" "unconnected-(U1-SUSPND-Pad32)" "STATUS_LED_CTL" "3V3_BUCK_PWR_GOOD" "unconnected-(U7D-P3A-Pad1)" "unconnected-(U7B-P1A-Pad10)" "unconnected-(U7A-P0A-Pad11)"
+    "unconnected-(U7E-NC-Pad14)" "POWER_DPOT_RESET" "unconnected-(U7C-P2A-Pad20)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
